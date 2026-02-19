@@ -1,0 +1,6 @@
+Sérgio,320,Concluído
+Ana,150,Transferido
+Sérgio,450,Concluído
+Marcos,120,Concluído
+Ana,600,Concluído
+Sérgio,200,Concluído

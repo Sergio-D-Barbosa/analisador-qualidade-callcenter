@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Estudos_SQL",
+            "database": "meubanco.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
