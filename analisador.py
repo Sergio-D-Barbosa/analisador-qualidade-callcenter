@@ -3,19 +3,16 @@ import sqlite3
 conexao = sqlite3.connect("meubanco.db")
 cursor = conexao.cursor()
 
-cursor.execute("INSERT INTO operadores (nome, tma) VALUES ('Maria', 370)")
 
 
-conexao.commit()
 
+
+#cursor.execute("DROP TABLE operadores")
 
 cursor.execute("SELECT * FROM operadores")
 
+print(cursor.fetchall())
 
-dados = cursor.fetchall()
-
-
-for linha in dados:
-    print(linha)
+#conexao.commit()
 
 conexao.close()
