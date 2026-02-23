@@ -1,6 +1,10 @@
-Sérgio,320,Concluído
-Ana,150,Transferido
-Sérgio,450,Concluído
-Marcos,120,Concluído
-Ana,600,Concluído
-Sérgio,200,Concluído
+Maria,2026-02-23 08:30:00,370,O cliente ficou satisfeito com o suporte.
+Lucas,2026-02-23 09:15:00,590,O cliente mencionou o procon e quer cancelar.
+Sergio,2026-02-23 10:00:00,200,Dúvida simples sobre a fatura.
+Ana,2026-02-23 10:30:00,450,Atendimento demorado mas resolveu o problema.
+Pedro,2026-02-23 11:00:00,800,Cliente muito bravo com a queda do sinal absurdo.
+Carla,2026-02-23 11:20:00,300,Solicitação de segunda via de conta.
+Roberto,2026-02-23 11:45:00,950,Ameaçou ir ao procon por conta de cobrança indevida.
+Beatriz,2026-02-23 12:00:00,150,Informação sobre horário de funcionamento.
+Marcos,2026-02-23 14:00:00,500,Reclamação de lentidão na internet cancelar.
+Julia,2026-02-23 14:30:00,400,Elogio ao atendimento anterior.
