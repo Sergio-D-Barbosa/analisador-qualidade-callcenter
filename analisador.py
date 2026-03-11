@@ -1,4 +1,5 @@
 import sqlite3
+import csv
 
 def classificar_sentimento(transcricao):
     palavras_criticas = ["procon", "cancelar", "absurdo", "indevida", "bravo", "ruim", "péssimo"]
@@ -58,6 +59,18 @@ try:
 
     for c in criticos:
         print(f"Operador: {c[0]} | Protocolo de Atendimento: {c[1]}")
+
+
+    if criticos:
+
+        with open("relatorio_criticos.csv", "w", newline="", encoding="utf-8") as f:
+            escritor = csv.writer(f)
+            escritor.writerow(["Operador", "Protocolo"])
+            escritor.writerows(criticos)
+            print(f"\n[SUCESSO] Relatório 'relatorio_criticos.csv' gerado para o supervisor.")
+
+    else:
+        print("\nNenhum atendimento crítico para exportar.")
 
     print("-" * 50)
 
