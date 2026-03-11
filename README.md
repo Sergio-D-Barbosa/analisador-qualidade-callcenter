@@ -12,5 +12,6 @@ Estou estudando desenvolvimento web back end, decidir aplicar o que aprendi em P
 - **Tratamento de Erros:** Usei `try/except` para o código não quebrar se encontrar uma linha mal formatada.
 - **SQL Além do Básico:** Entendi a importância do `INSERT OR IGNORE` e de como o banco pode ajudar na integridade dos dados.
 - **Organização:** Separei a lógica de análise em funções (`def`) para deixar o código limpo e fácil de mexer depois.
+- **Exportação CSV**
 
 ---
